@@ -1,5 +1,4 @@
 import setuptools
-import mailgunlog
 
 setuptools.setup(name=mailgunlog.__title__,
                  version=mailgunlog.__version__,

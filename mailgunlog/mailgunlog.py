@@ -7,7 +7,7 @@ import json
 import argparse
 import time
 from datetime import datetime, date as _date
-from dateutil.relativedelta import relativedelta
+from datetime import timedelta as relativedelta
 try:
     from email.Utils import formatdate
 except ImportError: #py3
